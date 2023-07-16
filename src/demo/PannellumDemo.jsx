@@ -29,7 +29,7 @@ export const PannellumDemo = () => {
           autoLoad
           author={""}
           orientationOnByDefault={false}
-          hotspotDebug={true}
+          hotspotDebug={false}
           title=""
         >
           {image?.hotspots?.map((hotspot) =>
